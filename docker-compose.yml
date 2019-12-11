@@ -1,0 +1,7 @@
+version: "2"
+services:
+  app:
+    entrypoint: ./entrypoint.sh
+    build: .
+    volumes:
+      - .:/Scraping-and-Analysis-on-Sneakers
